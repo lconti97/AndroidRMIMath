@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical|center_horizontal"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/question_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|center_vertical"
+        android:layout_weight="33"
+        android:gravity="center_vertical|center_horizontal"
+        android:padding="24dp"
+        android:textSize="32sp"/>
+
+    <TextView
+        android:id="@+id/operation_top_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="16"
+        android:padding="24dp"
+        android:textSize="22sp" />
+
+    <TextView
+        android:id="@+id/operation_bottom_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="16"
+        android:padding="24dp"
+        android:textSize="22sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="33"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal" >
+
+        <Button
+            android:id="@+id/left_answer_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="12dp"
+            android:layout_marginRight="12dp"
+            android:padding="24dp"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/center_answer_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="12dp"
+            android:layout_marginRight="12dp"
+            android:padding="24dp"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/right_answer_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="12dp"
+            android:layout_marginRight="12dp"
+            android:padding="24dp"
+            android:textSize="24sp" />
+    </LinearLayout>
+
+</LinearLayout>
